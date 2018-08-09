@@ -10,6 +10,7 @@ p {color: (RGB 178, 186, 187, 0.5);
 .container-1{
   width: 90%;
   margin: 0px auto;
+  position: relative;
 
 }
 
@@ -87,7 +88,7 @@ form.Registeration-Form {
 }
 
 .button-1 {
-  width: 90px;
+  width: 100px;
 	height: 25px;
 	background-color: #060606;
 	border: 2px solid rgba(255,255,255,0.6);
@@ -109,13 +110,81 @@ form.Registeration-Form {
   display: none;
 }
 
+.container-2{
+  width: 100%;
+  margin: auto;
+}
+
+.QuestionDisplay {
+  width: 50%;
+  float: left;
+  height: 500px;
+
+  text-decoration: none;
+}
+.RecentQuestions {
+  width: 50%;
+  float: right;
+  height: 200px;
+  text-decoration: none;
+  text-align: center;
+}
+.RecentQuestions li {
+  list-style-type: none;
+  line-height: 50px;
+  color: #008080;
+}
+.RecentQuestions h1 {
+  background-color: #454545;
+  color: white;
+}
+.question {
+  font-weight: bold;
+  font-size: 16px;
+}
+.answer{
+  font-size:  16px;
+  font-weight: normal;
+}
+.postAnswer{
+  width: 600px;
+  height: 100px;
+}
+.link-1{
+  text-decoration-color: black
+  color: #454545;
+  font-size: 14px;
+}
+a:link{
+  color: #454545;
+
+}
+.button-2{
+  width: 400px;
+	height: 25px;
+	background-color: #060606;
+	border: 2px solid rgba(255,255,255,0.6);
+	border-radius: 10px;
+	color: #FFF;
+  display: inline-block;
+	font-family: 16px "Lucida Sans Unicode", "Lucida Grande" sans-serif;
+	font-weight: 400;
+	padding: 5px 10px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/**....................... Footer......................... **/
 footer {
-  width: 100%
-  overflow: auto;
-  border-color: #454545;
+  background-color: #454545;
   color: #D35400;
   text-align: center;
   font-size:12px;
+  position:fixed;
+  bottom:0;
+  height: 5px;
   margin: 0px;
   padding: 30px 0px;
 }
