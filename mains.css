@@ -54,7 +54,9 @@ nav li {
   margin:auto;
 }
 
-
+form.Registeration-Form {
+  display: none;
+}
 .box-1 {
   background-color: #FFFFFF;
   color: #454545;
@@ -97,6 +99,10 @@ nav li {
 	padding: 4px;
 }
 
+.RegisterationForm{
+  display: none;
+}
+
 footer {
   width: 100%
   overflow: auto;
@@ -105,5 +111,5 @@ footer {
   text-align: center;
   font-size:12px;
   margin: 0px;
-  padding: 80px 0px;
+  padding: 30px 0px;
 }
