@@ -13,8 +13,8 @@
         <h1>StackOverFlow - Lite</h1>
         <nav >
           <ul>
-            <li><a href="#" >Forum </a></li>
-            <li><a href="#" >Sign Up </a></li>
+            <li><a href="Forum.html" >Forum </a></li>
+            <li><a href="SignUp.html" >Sign Up </a></li>
           </ul>
         </nav>
       </div>
@@ -27,43 +27,15 @@
               <br><br>
               <input type="text" class = "box-2" name="Password" placeholder="Password" >
               <br><br>
-              <button type="submit" class= "button-1" >Log In</button>
+              <a href="UserAccount.html" type="button" class="button-1">Log In</a>
             </form>
-            <p class = "message"> Not registered?<a  href="#" > Create an account</a></p>
+            <p class = "message"> Not registered?<a  href="SignUp.html" > Create an account</a></p>
         </div>
     </div>
-    <div class = "container">
-        <div class = "box-1">
-
-            <form class = "RegisterationForm" >
-              <h1>Create Your Account</h1>
-              <br>
-              <input type="text" class = "box-2" name="Full Name" placeholder="Full Name" >
-              <br><br>
-              <input type="email" class = "box-2" name="Email" placeholder="Email" >
-              <br><br>
-              <input type="password" class = "box-2" name="Password" placeholder="Password">
-              <br><br>
-              <input type="password" class = "box-2" name="Repeat Password" placeholder="Confirm Password">
-              <br><br>
-              <input type = "checkbox" class = "checkbox" name = "Terms of Service" value = "Agree"> I agree to the <a href="#">Terms of Service</a>
-              <br><br>
-              <button type="submit" class= "button-1" >Register</button>
-            </form>
-        </div>
-    </div>
-
-    <footer>
+        <footer>
       <div class = "container-1">
         &copy 2018 StackOverFlow - Lite. All Rights Reserved. <a href="#">Terms of Service</a>
       </div>
     </footer>
-    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
-    <script>
-    $(".message a").click(function()){
-      $("form").animate({height: "toggle" opacity: "toggle"});
-      ;)
-    }
-    </script>
 </body>
 </html>

@@ -87,17 +87,23 @@ form.Registeration-Form {
 }
 
 .button-1 {
-  width: 60px;
+  width: 90px;
 	height: 25px;
 	background-color: #060606;
-	border: 1px solid rgba(255,255,255,0.6);
+	border: 2px solid rgba(255,255,255,0.6);
 	border-radius: 10px;
 	color: #FFF;
-	font-family: "Lucida Sans Unicode", "Lucida Grande" sans-serif;
-	font-size: 13px;
+  display: inline-block;
+	font-family: 16px "Lucida Sans Unicode", "Lucida Grande" sans-serif;
 	font-weight: 400;
-	padding: 4px;
+	padding: 5px 10px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+
 }
+
+
 
 .RegisterationForm{
   display: none;
