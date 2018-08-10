@@ -19,7 +19,7 @@ body {
 }
 .welcome p {
   color: rgba(250,250,250,0.7);
-  font size: 6em ;
+  font-size: 26px ;
   line-height: 1.2em;
 }
 .welcome h2 {
@@ -231,7 +231,7 @@ form.Registeration-Form {
 }
 
 footer {
-  background-color: #FFF;
+  background-color:inherit;
   color: #D35400;
   text-align: center;
   font-size:12px;
