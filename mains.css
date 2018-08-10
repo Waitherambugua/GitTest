@@ -34,7 +34,7 @@ body {
 }
 .main {
   overflow: auto;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 p {color: (RGB 178, 186, 187, 0.5);
@@ -165,21 +165,35 @@ form.Registeration-Form {
 
   text-decoration: none;
 }
+.QuestionsDisplay {
+  width: inherit;
+  text-align: justify;
+  float: left;
+  height: 500px;
+
+  text-decoration: none;
+}
 .RecentQuestions {
   width: 50%;
   float: right;
   height: 200px;
   text-decoration: none;
   text-align: center;
+  line-height: 10px;
 }
 .RecentQuestions li {
   list-style-type: none;
   line-height: 50px;
   color: #008080;
 }
-.RecentQuestions h2 {
+
+
+.RecentQuestions button {
   background-color: #454545;
   color: white;
+}
+.RecentQuestions a{
+  text-decoration: none;
 }
 .question {
   font-weight: bold;
@@ -193,6 +207,13 @@ form.Registeration-Form {
   width: 600px;
   height: 100px;
 }
+.searchQuestion{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  float:right;
+  border: 5px 5px
+}
 .link-1{
   text-decoration-color: black
   color: #454545;
@@ -202,6 +223,7 @@ form.Registeration-Form {
   color: #454545;
 
 }
+
 .button-2{
   width: 400px;
 	height: 25px;
@@ -223,10 +245,11 @@ form.Registeration-Form {
 .Footer {
   background-color: #FFF;
   border-top: solid;
+  padding:0;
   height: 10px;
   margin-top:-10px;
   clear: both;
-  padding:0;
+
 
 }
 
