@@ -1,7 +1,4 @@
-* {
-  margin:0;
-  padding: 0;
-}
+
 body {
   background-color:#FFFFFF;
   height: 100%;
@@ -13,7 +10,7 @@ body {
 }
 .main {
   overflow: auto;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 p {color: (RGB 178, 186, 187, 0.5);
@@ -197,23 +194,24 @@ form.Registeration-Form {
 
 /**....................... Footer......................... **/
 .Footer {
-
-  height: 50px;
-  margin-top:-50px;
-  position: relative;
+  background-color: #FFF;
+  border-top: solid;
+  height: 10px;
+  margin-top:-10px;
   clear: both;
+  padding:0;
 
 }
 
 footer {
-  background-color: #454545;
+  background-color: #FFF;
   color: #D35400;
   text-align: center;
   font-size:12px;
   margin-bottom:0px;
-  height: 50px;
-  width: 100%;
+  width: 95%;
   margin: 0px;
   padding: 1rem;
-  position: relative;
+  position: fixed;
+  bottom: 0;
 }
