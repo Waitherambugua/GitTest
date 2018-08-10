@@ -1,14 +1,27 @@
+* {
+  margin:0;
+  padding: 0;
+}
 body {
   background-color:#FFFFFF;
+  height: 100%;
   color: #454545;
   font-family: normal 12px 'Roboto Slab', serif ;
+}
+.wrapper{
+  min-height: 100%;
+}
+.main {
+  overflow: auto;
+  padding-bottom: 50px;
 }
 
 p {color: (RGB 178, 186, 187, 0.5);
           font-size: 12px;
 }
 .container-1{
-  width: 90%;
+  width: 95%;
+  min-height: 100%;
   margin: 0px auto;
   position: relative;
 
@@ -62,6 +75,7 @@ form.Registeration-Form {
   background-color: #FFFFFF;
   color: #454545;
   font-size: 12px;
+  overflow: auto;
   margin: 50px 0px;
   padding: 50px;
   border-radius: 5px;
@@ -183,26 +197,23 @@ form.Registeration-Form {
 
 /**....................... Footer......................... **/
 .Footer {
-  width: 100%;
-  height: 20%
-  margin: 0px auto;
+
+  height: 50px;
+  margin-top:-50px;
   position: relative;
+  clear: both;
+
 }
-nav footer{
-  float: center;
-}
+
 footer {
   background-color: #454545;
   color: #D35400;
   text-align: center;
   font-size:12px;
-  bottom:0;
-  height: 5px;
+  margin-bottom:0px;
+  height: 50px;
+  width: 100%;
   margin: 0px;
-  padding: 30px 0px;
-}
-footer::before{
-  content: '';
-  display: table;
-  clear: both;
+  padding: 1rem;
+  position: relative;
 }
