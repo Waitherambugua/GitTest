@@ -114,7 +114,9 @@ form.Registeration-Form {
   width: 100%;
   margin: auto;
 }
-
+.myAccount h1{
+  font-weight: bold;
+}
 .QuestionDisplay {
   width: 50%;
   float: left;
@@ -155,7 +157,7 @@ form.Registeration-Form {
   color: #454545;
   font-size: 14px;
 }
-a:link{
+.link-1 a{
   color: #454545;
 
 }
