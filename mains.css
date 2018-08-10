@@ -167,7 +167,8 @@ form.Registeration-Form {
 .QuestionDisplay {
   width: 50%;
   float: left;
-  height: 500px;
+  height: inherit;
+  margin-bottom: 50px;
 
   text-decoration: none;
 }
@@ -212,6 +213,7 @@ form.Registeration-Form {
 .postAnswer{
   width: 600px;
   height: 100px;
+  margin-top: 20px;
 }
 .searchQuestion{
   width: 200px;
